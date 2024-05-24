@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RestassuredAPI.RestassuredAPI.API_Get_1"/>
+      <class name="RestassuredAPI.RestassuredAPI.GetRequest"/>
+      <class name="RestassuredAPI.RestassuredAPI.PostEg"/>
+      <class name="RestassuredAPI.RestassuredAPI.GetandPost"/>
+      <class name="RestassuredAPI.RestassuredAPI.PutPatchDelete"/>
+      <class name="RestassuredAPI.RestassuredAPI.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
